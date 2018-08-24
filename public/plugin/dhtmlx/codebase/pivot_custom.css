@@ -1,0 +1,87 @@
+.dhx_config_wrap .dhx_config_free-items .dhx_config_field{
+    height: 42px;
+}
+
+.dhx_config_field{
+    height: 42px;
+}
+.dhx_config_select{
+    padding: 0 4px;
+}
+
+
+.dhx_config_item{
+    font-size: 12px;
+    height: 27px;
+}
+
+.dhx_config_wrap{
+    margin-bottom: 2px;
+}
+
+
+
+.main_wrapper {
+    display: flex;
+    height: 100%;
+    width:100%;
+}
+
+.pivot-container {
+    flex: 2 0 auto;
+    min-width: 400px;
+}
+.btn_cont {
+    width: 200px;
+    max-width: 200px;
+    padding: 15px 15px 15px 0;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #EEE;
+}
+
+.btn_cont .dhx_btn {
+    margin: 15px 0;
+    min-height: 38px;
+    justify-content: center;
+}
+
+.dhx_inline_cont{
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.reportFilter-v{
+    font-size: 12px;
+}
+
+.divider{
+    border: dashed 1px silver;
+    margin: 8px 3px;
+}
+
+.btn-panda{
+    background: #6590bc;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+}
+.btn-panda:hover, .btn-panda:active, .btn-panda:focus{
+    background: #6590bc!important;
+    outline: none;
+    color: white!important;
+}
+
+.btn-export{
+    background: #3c763d;
+    color: white;
+    width: 100%;
+    border-radius: 0;
+}
+.btn-export:hover, .btn-export:active, .btn-export:focus{
+    background: #3c763d!important;
+    outline: none;
+    color: white!important;
+}
